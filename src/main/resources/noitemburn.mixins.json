@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.trivaxy.noitemburn.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "NoItemBurnMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

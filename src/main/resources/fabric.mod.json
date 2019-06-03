@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "noitemburn",
+  "version": "${version}",
+
+  "name": "No Item Burn",
+  "description": "This mod stops items from burning when dropped in lava or fire.",
+  "authors": [
+    "Trivaxy"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/noitemburn/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.trivaxy.noitemburn.NoItemBurnMod"
+    ]
+  },
+  "mixins": [
+    "noitemburn.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
